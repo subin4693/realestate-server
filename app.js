@@ -12,7 +12,7 @@ let app = express();
 
 app.use(
   cors({
-    origin: "https://jade-ganache-8d265a.netlify.app/",
+    origin: "https://jade-ganache-8d265a.netlify.app",
     credentials: true,
   }),
 );
